@@ -31,7 +31,7 @@ class Auto:
         self.motor= motor
         self.registro= registro
 
-    def cantidadadAsientos(self):
+    def cantidadAsientos(self):
         c=0
         for i in self.asientos:
             if i!= None:
